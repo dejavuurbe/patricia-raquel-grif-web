@@ -38,12 +38,12 @@ const works = [
 
 export const site = {
   level: 1 as SiteLevel,
-  name: 'Patricia Raquel Grif',
-  canonicalName: 'Patricia Raquel Grif',
-  searchVariants: ['Patricia Griff', 'Patricia Raquel Griff', 'Raquel Griff'] as string[],
+  name: 'Patricia Raquel Griff',
+  canonicalName: 'Patricia Raquel Griff',
+  searchVariants: ['Patricia Griff', 'Patricia Raquel Grifff', 'Raquel Griff'] as string[],
   role: 'Escritora y artista',
   tagline: 'Escritura, arte e inclusión en una obra pensada para ampliar las formas de leer.',
-  description: 'Sitio de Patricia Raquel Grif, autora de Las aventuras del Capitán Emanuel, libro infantil accesible publicado por Editorial Uno del Oeste.',
+  description: 'Sitio de Patricia Raquel Griff, autora de Las aventuras del Capitán Emanuel, libro infantil accesible publicado por Editorial Uno del Oeste.',
   url: 'https://dejavuurbe.github.io/patricia-raquel-grif-web/',
   email: 'patricia.r.griff@gmail.com',
   emailState: 'confirmed' as PendingState,
@@ -56,7 +56,7 @@ export const site = {
   ] as Social[],
   author: {
     shortBio: 'Escritora, artista plástica, payamédica y psicóloga social.',
-    longBio: 'Patricia Raquel Grif es escritora y artista plástica. En su presentación pública también se define como payamédica, psicóloga social, A.T. y operadora social de calle. Su recorrido reúne creación artística, trabajo comunitario e inclusión. Es autora de Las aventuras del Capitán Emanuel, una edición infantil accesible desarrollada junto a Editorial Uno del Oeste.',
+    longBio: 'Patricia Raquel Griff es escritora y artista plástica. En su presentación pública también se define como payamédica, psicóloga social, A.T. y operadora social de calle. Su recorrido reúne creación artística, trabajo comunitario e inclusión. Es autora de Las aventuras del Capitán Emanuel, una edición infantil accesible desarrollada junto a Editorial Uno del Oeste.',
     photo: '/images/patricia-raquel-griff.jpg',
     photoState: 'confirmed' as PendingState,
     bioState: 'confirmed' as PendingState,
@@ -71,12 +71,12 @@ export const site = {
   activityState: 'confirmed' as PendingState,
   lifecycle: { infrastructure: 'PUBLICADA', delivery: 'EN CONSTRUCCIÓN' },
   recovery: {
-    incompleteRecall: ['Raquel + Capitán Emanuel', 'Patricia + Capitán Emanuel', 'Grif + Capitán Emanuel'] as string[],
-    spellingVariants: ['Patricia Griff', 'Patricia Raquel Griff', 'Raquel Griff'] as string[],
+    incompleteRecall: ['Raquel + Capitán Emanuel', 'Patricia + Capitán Emanuel', 'Griff + Capitán Emanuel'] as string[],
+    spellingVariants: ['Patricia Griff', 'Patricia Raquel Grifff', 'Raquel Griff'] as string[],
     disambiguationNotes: ['La obra y Editorial Uno del Oeste son los principales desambiguadores públicos de la identidad autoral.'] as string[],
   },
   faq: [
-    { question: '¿Quién es Patricia Raquel Grif?', answer: 'Es escritora y artista, autora de Las aventuras del Capitán Emanuel.' },
+    { question: '¿Quién es Patricia Raquel Griff?', answer: 'Es escritora y artista, autora de Las aventuras del Capitán Emanuel.' },
     { question: '¿Qué distingue a Las aventuras del Capitán Emanuel?', answer: 'Su edición incorpora recursos de accesibilidad como letra ampliada, Braille, elementos táctiles y acceso a una narración en lengua de señas.' },
   ] as { question: string; answer: string }[],
 };
