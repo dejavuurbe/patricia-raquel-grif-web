@@ -1,4 +1,4 @@
-# WEB-002 — Patricia Raquel Grif
+# WEB-002 — Patricia Raquel Griff
 
 ## Estado
 - Infraestructura: CREADA/PUBLICADA.
@@ -8,7 +8,7 @@
 - URL pública prevista: https://dejavuurbe.github.io/patricia-raquel-grif-web/
 
 ## Identidad y materiales
-- Nombre público: Patricia Raquel Grif.
+- Nombre público: Patricia Raquel Griff.
 - Obra principal: *Las aventuras del Capitán Emanuel*.
 - Editorial: Editorial Uno del Oeste.
 - Foto: `patricia-raquel-griff.jpg` — JPEG — 50.583 bytes — 352×426 px — original de Drive.
