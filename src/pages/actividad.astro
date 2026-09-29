@@ -7,7 +7,7 @@ const emailActive = site.emailState === 'confirmed' && Boolean(site.email);
 const emailPending = site.emailState === 'pending';
 ---
 <BaseLayout title={`Actividad y contacto | ${site.name}`} description={`Actividad literaria y canales públicos de ${site.name}.`}>
-  <section class="section">
+  <section class="section-screen compact">
     <div class="container">
       <p class="eyebrow">Actividad</p>
       <h1>Presentaciones y recorrido público</h1>
@@ -22,7 +22,7 @@ const emailPending = site.emailState === 'pending';
     </div>
   </section>
 
-  <section class="section contact-section" id="contacto">
+  <section class="section-half compact contact-section" id="contacto">
     <div class="container">
       <p class="eyebrow">Contacto</p><h2>Canales públicos</h2>
       <p class="lead">Redes y medios oficiales para lectores, prensa, entrevistas, presentaciones y consultas.</p>
