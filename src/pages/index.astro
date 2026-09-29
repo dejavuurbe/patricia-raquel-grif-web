@@ -15,7 +15,7 @@ const bookMeta = [
 const purchaseLinks = book.purchaseLinks.filter((item) => /^https?:\/\//.test(item.url));
 ---
 <BaseLayout title={`${site.name} | ${site.role}`} description={site.description} schema={[identityGraphSchema(), faqSchema()]}>
-  <section class="hero section" id="inicio">
+  <section class="hero section-screen compact" id="inicio">
     <div class="container hero-grid">
       <div>
         <p class="eyebrow">{site.role}</p>
@@ -33,7 +33,7 @@ const purchaseLinks = book.purchaseLinks.filter((item) => /^https?:\/\//.test(it
     </div>
   </section>
 
-  <section class="section book-section" id="obra">
+  <section class="book-section section-screen compact" id="obra">
     <div class="container grid-two">
       {book.coverState !== 'omitted' && (
         <figure class="media-item">
@@ -57,7 +57,7 @@ const purchaseLinks = book.purchaseLinks.filter((item) => /^https?:\/\//.test(it
     </div>
   </section>
 
-  <section class="section" id="autor">
+  <section class="section-screen compact" id="autor">
     <div class="container bio-grid"><div><p class="eyebrow">Biografía</p><h2>Sobre {site.name}</h2></div><p class="lead">{site.author.longBio}</p></div>
   </section>
 </BaseLayout>
